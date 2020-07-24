@@ -128,16 +128,3 @@ function resolvePromise (promise, x, resolve, reject) {
         resolve(x)
     }
 }
-
-
-function extend () {
-    let target
-    if (arguments.length = 1) {
-        target = this
-    }
-    [].forEach.call(arguments, item => {
-        for (var key in item) {
-            target[key] = item[key]
-        }
-    })
-}
